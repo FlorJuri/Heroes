@@ -1,0 +1,110 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: block;
+}
+#body {
+    background-color: #e5e5e5;
+    width: 300px;
+    height: 336px;
+    top: 192px;
+    position: absolute;
+}
+h2.batman{
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    bottom: 227px;
+    left: 89px;
+}
+h2.harley{
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    bottom: 227px;
+    left: 60px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+main {
+    display: block;
+}
+#bar-discount {
+    background-color: #1cd1b0;
+    height: 38px;
+    padding: 5px;
+    
+}
+
+header {
+    height: 101px;
+    padding: 28px;
+    background-color: #00669f;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.main-div {
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.card {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 529px;
+    margin-right: 32px;
+}
+
+#like {
+    position: absolute;
+    top: 15.88px;
+    left: 21px;
+    z-index: 1;
+}
+#foto-perfil {
+    border-radius: 50%;
+    position: absolute;
+    top: 128px;
+    left: 90px;
+    z-index: 1;
+}
+#background {
+    width: 300px;
+    height: 193px;
+    bottom: 335px;
+    position: absolute;
+    display: flex;
+}
+button {
+    background-color: #00669f;
+    color: white;
+    position:absolute;
+    bottom: 18.48px;
+    left: 85px;
+}
+
+.descripcion {
+    position: absolute;
+    bottom: 104px;
+    left: 16px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+button p {
+    padding: 15px 37px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #00669F;
+    padding: 15px 30px;
+    color: #ffffff;
+}
